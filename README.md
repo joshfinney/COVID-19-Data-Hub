@@ -6,12 +6,7 @@ Web server powered by Flask, made for ECM1400 Programming coursework at Exeter U
 
 ## 👤 Author
 
-- [@joshfinney](https://github.com/joshfinney)
-
-
-## 📝 License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+- [@joshfinney](https://github.com/joshfinney) 👨🏽‍🎓
 
 
 ## 📰 Configuration
@@ -63,3 +58,9 @@ covid-data-hub-main/
 ├─ test_covid_data_handler.py (runs regular tests on covid_data_handler.py)
 ├─ test_news_data_handling.py (runs regular tests on covid_news_handling.py)
 ```
+
+
+## 📝 License
+Copyright © 2021 [Joshua](https://github.com/joshfinney).
+
+This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
