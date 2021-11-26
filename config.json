@@ -1,0 +1,8 @@
+{
+  "API-keys": {
+    "news": "Insert API key from https://newsapi.org/"
+  },
+	"information":{
+		"city":"Insert name of English city you would like to personalise web page with"
+		}
+}

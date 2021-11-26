@@ -1,0 +1,118 @@
+2021-11-25 18:24:08,512:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-11-25 18:24:16,414:INFO:127.0.0.1 - - [25/Nov/2021 18:24:16] "[33mGET / HTTP/1.1[0m" 404 -
+2021-11-25 18:24:19,040:INFO:127.0.0.1 - - [25/Nov/2021 18:24:19] "GET /index HTTP/1.1" 200 -
+2021-11-25 18:24:19,094:INFO:127.0.0.1 - - [25/Nov/2021 18:24:19] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2021-11-25 18:24:39,989:ERROR:Exception on /index [GET]
+Traceback (most recent call last):
+  File "/Users/josh/.local/share/virtualenvs/Programming_coursework-Wqs8J8Wo/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/josh/.local/share/virtualenvs/Programming_coursework-Wqs8J8Wo/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/josh/.local/share/virtualenvs/Programming_coursework-Wqs8J8Wo/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/josh/.local/share/virtualenvs/Programming_coursework-Wqs8J8Wo/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/josh/Desktop/Programming coursework/covid_data_handler.py", line 197, in main_page
+    logging.info("Form submitted - " + form_data)
+TypeError: can only concatenate str (not "dict") to str
+2021-11-25 18:24:39,992:INFO:127.0.0.1 - - [25/Nov/2021 18:24:39] "[35m[1mGET /index?update=18%3A29&two=LABEL&repeat=repeat&covid-data=covid-data&news=news HTTP/1.1[0m" 500 -
+2021-11-25 18:25:22,625:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-11-25 18:25:27,301:INFO:Form submitted - {'Scheduled_data_updates': '18:29', 'Update_label': 'LABEL', 'Repeat_update': 'repeat', 'Update_covid_data': 'covid-data', 'Update_news_article': 'news'}
+2021-11-25 18:25:27,301:INFO:News update scheduled every 1000 seconds
+2021-11-25 18:25:27,692:INFO:COVID data update scheduled every 240 seconds
+2021-11-25 18:25:27,710:INFO:127.0.0.1 - - [25/Nov/2021 18:25:27] "GET /index?update=18%3A29&two=LABEL&repeat=repeat&covid-data=covid-data&news=news HTTP/1.1" 200 -
+2021-11-25 18:25:27,769:INFO:127.0.0.1 - - [25/Nov/2021 18:25:27] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2021-11-25 18:26:28,585:INFO:127.0.0.1 - - [25/Nov/2021 18:26:28] "GET /index HTTP/1.1" 200 -
+2021-11-25 18:26:28,684:INFO:127.0.0.1 - - [25/Nov/2021 18:26:28] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2021-11-25 18:27:03,432:INFO:Article deleted
+2021-11-25 18:27:03,435:INFO:127.0.0.1 - - [25/Nov/2021 18:27:03] "GET /index?notif=COVID-19%3A+Total+cases+in+UK+passes+10m+since+start+of+pandemic+-+Sky+News HTTP/1.1" 200 -
+2021-11-25 18:27:03,475:INFO:127.0.0.1 - - [25/Nov/2021 18:27:03] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2021-11-25 18:27:57,116:INFO:Updated cancelled
+2021-11-25 18:27:57,117:INFO:127.0.0.1 - - [25/Nov/2021 18:27:57] "GET /index?update_item=England+COVID-19+data+update HTTP/1.1" 200 -
+2021-11-25 18:27:57,193:INFO:127.0.0.1 - - [25/Nov/2021 18:27:57] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2021-11-25 18:28:57,478:INFO:127.0.0.1 - - [25/Nov/2021 18:28:57] "GET /index HTTP/1.1" 200 -
+2021-11-25 18:28:57,539:INFO:127.0.0.1 - - [25/Nov/2021 18:28:57] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2021-11-25 18:29:59,142:INFO:127.0.0.1 - - [25/Nov/2021 18:29:59] "GET /index HTTP/1.1" 200 -
+2021-11-25 18:29:59,293:INFO:127.0.0.1 - - [25/Nov/2021 18:29:59] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2021-11-25 18:31:00,386:INFO:127.0.0.1 - - [25/Nov/2021 18:31:00] "GET /index HTTP/1.1" 200 -
+2021-11-25 18:31:00,528:INFO:127.0.0.1 - - [25/Nov/2021 18:31:00] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2021-11-25 18:31:11,033:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-11-25 18:32:02,116:INFO:127.0.0.1 - - [25/Nov/2021 18:32:02] "GET /index HTTP/1.1" 200 -
+2021-11-25 18:32:02,224:INFO:127.0.0.1 - - [25/Nov/2021 18:32:02] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2021-11-25 18:33:03,841:INFO:127.0.0.1 - - [25/Nov/2021 18:33:03] "GET /index HTTP/1.1" 200 -
+2021-11-25 18:33:03,919:INFO:127.0.0.1 - - [25/Nov/2021 18:33:03] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2021-11-25 18:34:04,005:INFO:127.0.0.1 - - [25/Nov/2021 18:34:04] "GET /index HTTP/1.1" 200 -
+2021-11-25 18:34:04,050:INFO:127.0.0.1 - - [25/Nov/2021 18:34:04] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2021-11-25 18:35:12,830:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-11-25 18:42:21,641:INFO:127.0.0.1 - - [25/Nov/2021 18:42:21] "GET /index HTTP/1.1" 200 -
+2021-11-25 18:42:21,769:INFO:127.0.0.1 - - [25/Nov/2021 18:42:21] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2021-11-25 18:42:21,844:INFO:127.0.0.1 - - [25/Nov/2021 18:42:21] "GET /index HTTP/1.1" 200 -
+2021-11-25 18:42:21,867:INFO:127.0.0.1 - - [25/Nov/2021 18:42:21] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2021-11-25 18:42:31,304:INFO:Article deleted
+2021-11-25 18:42:31,305:INFO:127.0.0.1 - - [25/Nov/2021 18:42:31] "GET /index?notif=COVID-19%3A+Total+cases+in+UK+passes+10m+since+start+of+pandemic+-+Sky+News HTTP/1.1" 200 -
+2021-11-25 18:42:31,338:INFO:127.0.0.1 - - [25/Nov/2021 18:42:31] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2021-11-25 18:42:41,770:INFO:Form submitted - {'Scheduled_data_updates': '18:47', 'Update_label': 'ff', 'Repeat_update': None, 'Update_covid_data': 'covid-data', 'Update_news_article': 'news'}
+2021-11-25 18:42:42,713:INFO:Manual COVID data update
+2021-11-25 18:42:43,292:INFO:Manual news update
+2021-11-25 18:42:43,294:INFO:127.0.0.1 - - [25/Nov/2021 18:42:43] "GET /index?update=18%3A47&two=ff&covid-data=covid-data&news=news HTTP/1.1" 200 -
+2021-11-25 18:42:43,341:INFO:127.0.0.1 - - [25/Nov/2021 18:42:43] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2021-11-25 18:43:00,316:INFO:Article deleted
+2021-11-25 18:43:00,319:INFO:127.0.0.1 - - [25/Nov/2021 18:43:00] "GET /index?notif=COVID-19%3A+Total+cases+in+UK+passes+10m+since+start+of+pandemic+-+Sky+News HTTP/1.1" 200 -
+2021-11-25 18:43:00,360:INFO:127.0.0.1 - - [25/Nov/2021 18:43:00] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2021-11-25 18:44:02,137:INFO:127.0.0.1 - - [25/Nov/2021 18:44:02] "GET /index HTTP/1.1" 200 -
+2021-11-25 18:44:02,277:INFO:127.0.0.1 - - [25/Nov/2021 18:44:02] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2021-11-25 18:45:04,352:INFO:127.0.0.1 - - [25/Nov/2021 18:45:04] "GET /index HTTP/1.1" 200 -
+2021-11-25 18:45:04,446:INFO:127.0.0.1 - - [25/Nov/2021 18:45:04] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2021-11-25 18:46:06,271:INFO:127.0.0.1 - - [25/Nov/2021 18:46:06] "GET /index HTTP/1.1" 200 -
+2021-11-25 18:46:06,419:INFO:127.0.0.1 - - [25/Nov/2021 18:46:06] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2021-11-25 18:47:08,273:INFO:127.0.0.1 - - [25/Nov/2021 18:47:08] "GET /index HTTP/1.1" 200 -
+2021-11-25 18:47:08,401:INFO:127.0.0.1 - - [25/Nov/2021 18:47:08] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2021-11-25 18:51:21,822:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-11-25 18:51:26,865:INFO:127.0.0.1 - - [25/Nov/2021 18:51:26] "GET /index HTTP/1.1" 200 -
+2021-11-25 18:51:26,955:INFO:127.0.0.1 - - [25/Nov/2021 18:51:26] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2021-11-25 18:52:28,980:INFO:127.0.0.1 - - [25/Nov/2021 18:52:28] "GET /index HTTP/1.1" 200 -
+2021-11-25 18:52:29,107:INFO:127.0.0.1 - - [25/Nov/2021 18:52:29] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2021-11-25 18:53:05,465:INFO:Form submitted - {'Scheduled_data_updates': '', 'Update_label': '234', 'Repeat_update': None, 'Update_covid_data': 'covid-data', 'Update_news_article': 'news'}
+2021-11-25 18:53:05,466:ERROR:Exception on /index [GET]
+Traceback (most recent call last):
+  File "/Users/josh/.local/share/virtualenvs/Programming_coursework-Wqs8J8Wo/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/josh/.local/share/virtualenvs/Programming_coursework-Wqs8J8Wo/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/josh/.local/share/virtualenvs/Programming_coursework-Wqs8J8Wo/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/josh/.local/share/virtualenvs/Programming_coursework-Wqs8J8Wo/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/josh/Desktop/Programming coursework/covid_data_handler.py", line 203, in main_page
+    delay = hhmm_to_seconds(str(form_data['Scheduled_data_updates'])) - current_time_in_seconds
+  File "/Users/josh/Desktop/Programming coursework/covid_data_handler.py", line 113, in hhmm_to_seconds
+    return int(str(hhmm).split(':')[0])*60*60+int(str(hhmm).split(':')[1])*60
+ValueError: invalid literal for int() with base 10: ''
+2021-11-25 18:53:05,472:INFO:127.0.0.1 - - [25/Nov/2021 18:53:05] "[35m[1mGET /index?update=&two=234&covid-data=covid-data&news=news HTTP/1.1[0m" 500 -
+2021-11-25 18:53:13,323:INFO:Form submitted - {'Scheduled_data_updates': '22:57', 'Update_label': '234', 'Repeat_update': None, 'Update_covid_data': 'covid-data', 'Update_news_article': 'news'}
+2021-11-25 18:53:14,142:INFO:Manual COVID data update
+2021-11-25 18:53:14,316:INFO:Manual news update
+2021-11-25 18:53:14,318:INFO:127.0.0.1 - - [25/Nov/2021 18:53:14] "GET /index?update=22%3A57&two=234&covid-data=covid-data&news=news HTTP/1.1" 200 -
+2021-11-25 18:53:14,364:INFO:127.0.0.1 - - [25/Nov/2021 18:53:14] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2021-11-25 18:53:23,697:INFO:Form submitted - {'Scheduled_data_updates': '23:58', 'Update_label': 'f', 'Repeat_update': 'repeat', 'Update_covid_data': 'covid-data', 'Update_news_article': 'news'}
+2021-11-25 18:53:23,697:INFO:News update scheduled every 1000 seconds
+2021-11-25 18:53:24,099:INFO:COVID data update scheduled every 18300 seconds
+2021-11-25 18:53:24,100:INFO:127.0.0.1 - - [25/Nov/2021 18:53:24] "GET /index?update=23%3A58&two=f&repeat=repeat&covid-data=covid-data&news=news HTTP/1.1" 200 -
+2021-11-25 18:53:24,151:INFO:127.0.0.1 - - [25/Nov/2021 18:53:24] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2021-11-25 18:53:42,620:INFO:Article deleted
+2021-11-25 18:53:42,621:INFO:127.0.0.1 - - [25/Nov/2021 18:53:42] "GET /index?notif=COVID-19%3A+Total+cases+in+UK+passes+10m+since+start+of+pandemic+-+Sky+News HTTP/1.1" 200 -
+2021-11-25 18:53:42,689:INFO:127.0.0.1 - - [25/Nov/2021 18:53:42] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2021-11-25 18:53:47,430:INFO:127.0.0.1 - - [25/Nov/2021 18:53:47] "GET /index HTTP/1.1" 200 -
+2021-11-25 18:53:47,555:INFO:127.0.0.1 - - [25/Nov/2021 18:53:47] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2021-11-25 18:53:47,561:INFO:127.0.0.1 - - [25/Nov/2021 18:53:47] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2021-11-26 10:08:11,809:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-11-26 10:08:17,662:INFO:127.0.0.1 - - [26/Nov/2021 10:08:17] "GET /index HTTP/1.1" 200 -
+2021-11-26 10:08:17,693:INFO:127.0.0.1 - - [26/Nov/2021 10:08:17] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2021-11-26 10:08:50,228:INFO:Form submitted - {'Scheduled_data_updates': '15:16', 'Update_label': 'ff', 'Repeat_update': 'repeat', 'Update_covid_data': 'covid-data', 'Update_news_article': 'news'}
+2021-11-26 10:08:50,228:INFO:News update scheduled every 1000 seconds
+2021-11-26 10:08:50,729:INFO:COVID data update scheduled every 18480 seconds
+2021-11-26 10:08:50,731:INFO:127.0.0.1 - - [26/Nov/2021 10:08:50] "GET /index?update=15%3A16&two=ff&repeat=repeat&covid-data=covid-data&news=news HTTP/1.1" 200 -
+2021-11-26 10:08:50,766:INFO:127.0.0.1 - - [26/Nov/2021 10:08:50] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2021-11-26 10:09:05,412:INFO:Updated cancelled
+2021-11-26 10:09:05,413:INFO:127.0.0.1 - - [26/Nov/2021 10:09:05] "GET /index?update_item=Exeter+COVID-19+data+update HTTP/1.1" 200 -
+2021-11-26 10:09:05,454:INFO:127.0.0.1 - - [26/Nov/2021 10:09:05] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
