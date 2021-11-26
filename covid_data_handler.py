@@ -1,14 +1,11 @@
 """ This module controls the functionality of the COVID hub web page """
 
-import csv
-from enum import IntEnum
-import json
-import logging
-from types import MethodDescriptorType, NoneType
 from uk_covid19 import Cov19API
 from flask import Flask, render_template, request
+import csv
+import json
+import logging
 import sched, time
-from werkzeug.utils import escape
 from covid_news_handling import get_accepted_articles, news_api_request, delete_news
  
 updated:bool = False
