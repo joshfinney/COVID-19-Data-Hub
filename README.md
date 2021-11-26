@@ -50,7 +50,6 @@ covid-data-hub-main/
 ├─ nation_2021-10-28.csv
 ├─ LICENSE (contains licensing terms)
 ├─ config.json (stores server configuration)
-├─ gb-news.json
 ├─ logging.log (contains record of server interactions)
 ├─ README.md
 ├─ covid_data_handler.py (controls web-server variables)
