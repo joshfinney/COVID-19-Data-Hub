@@ -4,9 +4,12 @@
 Web server powered by Flask, made for ECM1400 Programming coursework at Exeter University
 
 
-## 👤 Author
+## 👨🏽‍💻 Repository
 
-- [@joshfinney](https://github.com/joshfinney) 👨🏽‍🎓
+- [Github Repo](https://github.com/joshfinney/COVID-19-Data-Hub)
+## 👨🏽‍🎓 Author
+
+- [@joshfinney](https://github.com/joshfinney)
 
 
 ## 📰 Configuration
@@ -50,6 +53,7 @@ covid-data-hub-main/
 ├─ nation_2021-10-28.csv
 ├─ LICENSE (contains licensing terms)
 ├─ config.json (stores server configuration)
+├─ gb-news.json
 ├─ logging.log (contains record of server interactions)
 ├─ README.md
 ├─ covid_data_handler.py (controls web-server variables)
